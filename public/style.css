@@ -1,0 +1,189 @@
+:root {
+    --primary-color: #9370DB;
+  
+    --max-content-size: 1140px;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+  }
+  
+  /* ELEMENTOS HTML */
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    scroll-behavior: smooth;
+  }
+  
+  /* COMPONENTS */
+  
+  .btn {
+    border-radius: 50px;
+    color: #FFF;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 8px 16px;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+  }
+  
+  .btn > a {
+    color: #FFF;
+  }
+  
+  .content {
+    max-width: var(--max-content-size);
+    margin: 0 auto;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 16px;
+  }
+  
+  /* NAVBAR */
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    max-width: var(--max-content-size);
+    padding: 16px 32px;
+    margin: 0 auto;
+  }
+  
+  .navbar > .navbar-left-items {
+    margin-right: auto;
+  }
+  
+  .navbar > .navbar-left-items > .navbar-nav {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-link {
+    margin: 0 16px;
+  }
+  
+  .nav-item :hover{
+    color: var(--primary-color);
+  }
+  
+  /* HOME [SECTION] */
+  
+  #home {
+    height: 640px;
+  }
+  
+  .home-content-left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .home-content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 8%;
+  }
+  
+  .home-content-right > img{
+    width: 80%;
+    max-height: 70%;
+  }
+  
+  .home-logo{
+    width: 28vw;
+    min-width: 260px;
+    max-width: 280px;
+  }
+  
+  .logo-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 24px;
+    text-align: end;
+  }
+  
+  .logo-text > li{
+    list-style: none;
+    color: var(--primary-color);
+  }
+  
+  /* SOBRE [SECTION] */
+  
+  #sobre{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 42px 8%;
+    color: #FFF;
+    background-color: var(--primary-color);
+  }
+  
+  #sobre .sobre-title h1 {
+    font-size: 64px;
+  }
+  
+  #sobre .sobre-text p {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: justify;
+  }
+  
+  /* MAPA [SECTION] */
+  
+  #map {
+    height: 500px;
+  }
+  
+  /* FOOTER [SECTION]*/
+  
+  .footer {
+    background-color: var(--primary-color);
+    height: 200px;
+  }
+  
+  @media (max-width: 940px)
+  {
+    #home {
+      height: 480px;
+    }
+  
+    #home .home-content-right {
+      display: none;
+    }
+  
+    .home-content-left {
+      margin: 0 auto;
+      text-align: center;
+    }
+  
+    .logo-text {
+      text-align: center;
+    }
+  
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #sobre .sobre-title h1 {
+      font-size: 40px;
+    }
+  }

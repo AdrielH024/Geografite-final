@@ -1,0 +1,7 @@
+2023-11-17 06:24:20.452 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'languageConfigurationAutoClosingPairs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-11-17 06:24:27.599 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode/extensions
+2023-11-17 06:24:35.315 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///root/.vscode/extensions Unable to create file 'vscode-userdata:/root/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-11-17 06:24:35.556 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode/extensions
+2023-11-17 06:25:42.418 [info] [perf] Render performance baseline is 291ms
+2023-11-17 06:25:56.661 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'languageConfigurationAutoClosingPairs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-11-17 06:26:19.163 [info] [perf] Render performance baseline is 552ms

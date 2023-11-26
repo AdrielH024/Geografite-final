@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link rel="icon" href="/public/logo.svg">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <title>GEOGRAFITE</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-left-items">
+      <ul class="navbar-nav">
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="#sobre">SOBRE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#mapa">MAPA</a>
+        </li>
+      </ul>
+    </div>
+    <button class="btn">
+      <a href="playground"><strong>FAÇA PARTE</strong></a>
+    </button>
+  </nav>
+  <section id="home">
+    <div class="content">
+      <div class="home-content-left">
+        <div>
+          <img class="home-logo" src="./svg/logo.svg">
+          <ul class="logo-text">
+            <li> Mapeando artes pelo mundo</li>
+            <li> Democratizando o acesso</li>
+            <li> Aflorando a criatividade</li>
+          </ul>
+        </div>
+      </div>
+      <div class="home-content-right">
+        <img class="home-svg" src="./svg/undraw_art_lover_re_fn8g.svg" alt="">
+      </div>
+    </div>
+  </section>
+  <section id="sobre">
+    <div class="content">
+      <div class="sobre-title">
+        <h1>SOBRE</h1>
+      </div>
+      <div class="sobre-text">
+        <p> Aplicativo desenvolvido para mapear grafites espalhados por todo o Brasil. A ideia por trás desse projeto é facilitar o acesso de todas as pessoas às artes urbanas, permitindo que qualquer um possa descobrir e apreciar essas formas artísticas em seu próprio tempo e ritmo. O aplicativo funciona como um guia virtual, permitindo que os usuários naveguem por um mapa interativo para encontrar os locais onde esses grafites estão localizados. Além disso, o aplicativo também oferece informações sobre os artistas com links externos para suas redes sociais para facilitar sua divulgação. Com essa app, é possível promover a arte e a cultura para um público mais amplo e diverso, democratizando o acesso às artes urbanas.</p>
+      </div>
+    </div>
+  </section>
+  <section id="mapa">
+    <div id="map"></div> <!---mapa-->
+  </section>
+  
+  <footer class="footer">
+  </footer>
+
+  <!--- scripts -->
+  <script src="map.js"></script>
+
+</body>
+</html>

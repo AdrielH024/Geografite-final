@@ -1,0 +1,23 @@
+{
+  "name": "geografit",
+  "version": "1.0.0",
+  "description": "Leaflet and mongo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-openid-connect": "^2.17.1",
+    "express.js": "^1.0.0",
+    "firebase": "^10.6.0",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.1",
+    "node-fetch": "^3.3.2"
+  },
+  "keywords": []
+}

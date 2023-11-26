@@ -1,0 +1,9 @@
+2023-11-17 06:24:15.052 [info] update#setState idle
+2023-11-17 06:24:44.830 [info] update#setState checking for updates
+2023-11-17 06:24:47.204 [info] update#setState available for download
+2023-11-17 06:25:54.271 [info] Extension host with pid 9574 exited with code: 0, signal: unknown.
+2023-11-17 06:35:52.790 [error] [UtilityProcess type: shared-process, pid: 9567]: crashed with code 15 and reason 'killed'
+2023-11-17 06:35:52.810 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 9769]: crashed with code 15 and reason 'killed'
+2023-11-17 06:35:52.857 [info] Extension host with pid 9779 exited with code: 0, signal: unknown.
+2023-11-17 06:35:52.862 [error] [UtilityProcess id: 2, type: extensionHost, pid: 9779]: crashed with code 15 and reason 'killed'
+2023-11-17 06:35:53.055 [error] CodeWindow: renderer process gone (reason: clean-exit, code: <unknown>)

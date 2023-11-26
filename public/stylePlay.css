@@ -1,0 +1,53 @@
+#map {
+  height: 100%;
+  width: 90%;
+  left: 10%;
+}
+#nav{
+  height: 100%;
+  width: 10%;
+position: fixed;
+
+}
+
+.home-logo{
+  width: 100%;
+  max-width: 100px;
+}
+
+#container{
+
+  margin-top: 10%
+
+}
+
+.icons{
+  margin-left: 20px;
+  height: 2vw;
+  min-height: 50px:
+}
+
+body{
+  background-color: rgb(136, 71, 136);
+}
+
+
+#popup-Container{
+  height: auto;
+  width: 50vw;
+  background-color: rgb(112, 0, 122);
+position: fixed;
+  z-index: 10000;
+  margin-left: 10vw;
+  margin-top: 10%;
+}
+
+#popup-Container > form{
+  margin-top: 6%;
+  margin-left: 8%;
+}
+
+.input{
+  width: 80%;
+}
+
